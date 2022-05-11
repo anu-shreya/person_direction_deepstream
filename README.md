@@ -1,8 +1,7 @@
 ### DETECTING THE DIRECTION OF A PERSON
 This application helps us in finding the direction in which the person is traversing. It is built on Nvidia Deepstream 5.1.
+
 ![person-moving](https://user-images.githubusercontent.com/86153411/167947349-0e7838a4-eca0-4f46-b2e4-027d2b7e665b.png)
-
-
 
 ## Deepstream Setup
 
@@ -27,12 +26,12 @@ Download the DeepStream 5.1 Jetson Debian package deepstream-5.1_5.1.0-1_arm64.d
 ```bash
 sudo apt install deepstream-5.1_5.1.0-1_arm64.deb
 ```
-For more information, go to the get started page of Deepstream [here](https://docs.nvidia.com/metropolis/deepstream/dev-guide/index.html).
+For more information, click [here](https://docs.nvidia.com/metropolis/deepstream/dev-guide/index.html).
 
 ## 3. Clone the repository
 ```bash
-git clone https://github.com/adlokib/bus_lane.git
-cd bus_lane
+git clone https://github.com/anu-shreya/person_direction_deepstream.git
+cd person_direction_deepstream
 ```
 
 ## 4. Run the application
@@ -43,11 +42,8 @@ make
 ```
 II. Now, run the application by providing the video source path 
 ```bash
-make
+./person_direction_deepstream  ----------------------------
 ```
-./person_direction ----------------------------
-
-
 
 ## Please find the Link of a Demo video below
-[here](https://youtu.be/OhjF_XYHkOg)
+[video](https://youtu.be/OhjF_XYHkOg)
