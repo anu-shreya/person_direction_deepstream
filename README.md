@@ -42,7 +42,7 @@ make
 ```
 II. Now, run the application by providing the video source path 
 ```bash
-./person_direction_deepstream  ----------------------------
+./person_direction_deepstream <h264_elementary_stream>
 ```
 
 ## Please find the Link of a Demo video below
